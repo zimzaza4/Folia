@@ -104,7 +104,7 @@ jobs:
 
           tag: "v1_20_1-${{ env.Compile_Date }}"
 
-          release_name: "1.20.1_DirtyFolia_Dev-${{ env.Compile_Date }}"
+          release_name: "1.20.1_Folia_Dev-${{ env.Compile_Date }}"
 
           overwrite: true
 
