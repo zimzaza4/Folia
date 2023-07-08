@@ -63,18 +63,6 @@ jobs:
 
           name: Folia-Bundler
 
-          path: ./build/libs/folia-bundler-*.jar
+          path: ./build/libs/*.jar
 
-          if-no-files-found: error
-
-      - name: Upload build artifacts
-
-        uses: actions/upload-artifact@v2
-
-        with:
-
-          name: Folia-Paperclip
-
-          path: ./build/libs/folia-paperclip-*.jar
-
-          if-no-files-found: error
+        
